@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222CABEC2814C09D009EB5B2 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222CABEB2814C09D009EB5B2 /* Api.swift */; };
+		226E65CE2816097F00E35753 /* SwitchDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226E65CD2816097F00E35753 /* SwitchDeviceView.swift */; };
+		226E65D028160D5000E35753 /* AnalogDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226E65CF28160D5000E35753 /* AnalogDeviceView.swift */; };
+		22C6B0252801CD5E00BB4DAF /* Knx_overlordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C6B0242801CD5E00BB4DAF /* Knx_overlordApp.swift */; };
+		22C6B0272801CD5E00BB4DAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C6B0262801CD5E00BB4DAF /* ContentView.swift */; };
+		22C6B0292801CD6000BB4DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C6B0282801CD6000BB4DAF /* Assets.xcassets */; };
+		22C6B02C2801CD6000BB4DAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C6B02B2801CD6000BB4DAF /* Preview Assets.xcassets */; };
+		22C6B02E2801CD6000BB4DAF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C6B02D2801CD6000BB4DAF /* Persistence.swift */; };
+		22C6B0312801CD6000BB4DAF /* Knx_overlord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22C6B02F2801CD6000BB4DAF /* Knx_overlord.xcdatamodeld */; };
+		22C6B03B2801CD6000BB4DAF /* Knx_overlordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C6B03A2801CD6000BB4DAF /* Knx_overlordTests.swift */; };
+		22C6B0452801CD6000BB4DAF /* Knx_overlordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C6B0442801CD6000BB4DAF /* Knx_overlordUITests.swift */; };
+		22C6B0472801CD6000BB4DAF /* Knx_overlordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C6B0462801CD6000BB4DAF /* Knx_overlordUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C6B0372801CD6000BB4DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C6B0192801CD5E00BB4DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C6B0202801CD5E00BB4DAF;
+			remoteInfo = "Knx overlord";
+		};
+		22C6B0412801CD6000BB4DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C6B0192801CD5E00BB4DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C6B0202801CD5E00BB4DAF;
+			remoteInfo = "Knx overlord";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		222CABEB2814C09D009EB5B2 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		226E65CD2816097F00E35753 /* SwitchDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchDeviceView.swift; sourceTree = "<group>"; };
+		226E65CF28160D5000E35753 /* AnalogDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogDeviceView.swift; sourceTree = "<group>"; };
+		22C6B0212801CD5E00BB4DAF /* Knx overlord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knx overlord.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C6B0242801CD5E00BB4DAF /* Knx_overlordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knx_overlordApp.swift; sourceTree = "<group>"; };
+		22C6B0262801CD5E00BB4DAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22C6B0282801CD6000BB4DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C6B02B2801CD6000BB4DAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22C6B02D2801CD6000BB4DAF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		22C6B0302801CD6000BB4DAF /* Knx_overlord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Knx_overlord.xcdatamodel; sourceTree = "<group>"; };
+		22C6B0362801CD6000BB4DAF /* Knx overlordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knx overlordTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C6B03A2801CD6000BB4DAF /* Knx_overlordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knx_overlordTests.swift; sourceTree = "<group>"; };
+		22C6B0402801CD6000BB4DAF /* Knx overlordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knx overlordUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C6B0442801CD6000BB4DAF /* Knx_overlordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knx_overlordUITests.swift; sourceTree = "<group>"; };
+		22C6B0462801CD6000BB4DAF /* Knx_overlordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knx_overlordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C6B01E2801CD5E00BB4DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C6B0332801CD6000BB4DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C6B03D2801CD6000BB4DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C6B0182801CD5E00BB4DAF = {
+			isa = PBXGroup;
+			children = (
+				22C6B0232801CD5E00BB4DAF /* Knx overlord */,
+				22C6B0392801CD6000BB4DAF /* Knx overlordTests */,
+				22C6B0432801CD6000BB4DAF /* Knx overlordUITests */,
+				22C6B0222801CD5E00BB4DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C6B0222801CD5E00BB4DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C6B0212801CD5E00BB4DAF /* Knx overlord.app */,
+				22C6B0362801CD6000BB4DAF /* Knx overlordTests.xctest */,
+				22C6B0402801CD6000BB4DAF /* Knx overlordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C6B0232801CD5E00BB4DAF /* Knx overlord */ = {
+			isa = PBXGroup;
+			children = (
+				22C6B0242801CD5E00BB4DAF /* Knx_overlordApp.swift */,
+				22C6B0262801CD5E00BB4DAF /* ContentView.swift */,
+				22C6B0282801CD6000BB4DAF /* Assets.xcassets */,
+				22C6B02D2801CD6000BB4DAF /* Persistence.swift */,
+				22C6B02F2801CD6000BB4DAF /* Knx_overlord.xcdatamodeld */,
+				22C6B02A2801CD6000BB4DAF /* Preview Content */,
+				222CABEB2814C09D009EB5B2 /* Api.swift */,
+				226E65CD2816097F00E35753 /* SwitchDeviceView.swift */,
+				226E65CF28160D5000E35753 /* AnalogDeviceView.swift */,
+			);
+			path = "Knx overlord";
+			sourceTree = "<group>";
+		};
+		22C6B02A2801CD6000BB4DAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22C6B02B2801CD6000BB4DAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22C6B0392801CD6000BB4DAF /* Knx overlordTests */ = {
+			isa = PBXGroup;
+			children = (
+				22C6B03A2801CD6000BB4DAF /* Knx_overlordTests.swift */,
+			);
+			path = "Knx overlordTests";
+			sourceTree = "<group>";
+		};
+		22C6B0432801CD6000BB4DAF /* Knx overlordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22C6B0442801CD6000BB4DAF /* Knx_overlordUITests.swift */,
+				22C6B0462801CD6000BB4DAF /* Knx_overlordUITestsLaunchTests.swift */,
+			);
+			path = "Knx overlordUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C6B0202801CD5E00BB4DAF /* Knx overlord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C6B04A2801CD6000BB4DAF /* Build configuration list for PBXNativeTarget "Knx overlord" */;
+			buildPhases = (
+				22C6B01D2801CD5E00BB4DAF /* Sources */,
+				22C6B01E2801CD5E00BB4DAF /* Frameworks */,
+				22C6B01F2801CD5E00BB4DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Knx overlord";
+			productName = "Knx overlord";
+			productReference = 22C6B0212801CD5E00BB4DAF /* Knx overlord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22C6B0352801CD6000BB4DAF /* Knx overlordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C6B04D2801CD6000BB4DAF /* Build configuration list for PBXNativeTarget "Knx overlordTests" */;
+			buildPhases = (
+				22C6B0322801CD6000BB4DAF /* Sources */,
+				22C6B0332801CD6000BB4DAF /* Frameworks */,
+				22C6B0342801CD6000BB4DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C6B0382801CD6000BB4DAF /* PBXTargetDependency */,
+			);
+			name = "Knx overlordTests";
+			productName = "Knx overlordTests";
+			productReference = 22C6B0362801CD6000BB4DAF /* Knx overlordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22C6B03F2801CD6000BB4DAF /* Knx overlordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C6B0502801CD6000BB4DAF /* Build configuration list for PBXNativeTarget "Knx overlordUITests" */;
+			buildPhases = (
+				22C6B03C2801CD6000BB4DAF /* Sources */,
+				22C6B03D2801CD6000BB4DAF /* Frameworks */,
+				22C6B03E2801CD6000BB4DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C6B0422801CD6000BB4DAF /* PBXTargetDependency */,
+			);
+			name = "Knx overlordUITests";
+			productName = "Knx overlordUITests";
+			productReference = 22C6B0402801CD6000BB4DAF /* Knx overlordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C6B0192801CD5E00BB4DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					22C6B0202801CD5E00BB4DAF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					22C6B0352801CD6000BB4DAF = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 22C6B0202801CD5E00BB4DAF;
+					};
+					22C6B03F2801CD6000BB4DAF = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 22C6B0202801CD5E00BB4DAF;
+					};
+				};
+			};
+			buildConfigurationList = 22C6B01C2801CD5E00BB4DAF /* Build configuration list for PBXProject "Knx overlord" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22C6B0182801CD5E00BB4DAF;
+			productRefGroup = 22C6B0222801CD5E00BB4DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C6B0202801CD5E00BB4DAF /* Knx overlord */,
+				22C6B0352801CD6000BB4DAF /* Knx overlordTests */,
+				22C6B03F2801CD6000BB4DAF /* Knx overlordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C6B01F2801CD5E00BB4DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C6B02C2801CD6000BB4DAF /* Preview Assets.xcassets in Resources */,
+				22C6B0292801CD6000BB4DAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C6B0342801CD6000BB4DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C6B03E2801CD6000BB4DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C6B01D2801CD5E00BB4DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C6B02E2801CD6000BB4DAF /* Persistence.swift in Sources */,
+				22C6B0272801CD5E00BB4DAF /* ContentView.swift in Sources */,
+				226E65CE2816097F00E35753 /* SwitchDeviceView.swift in Sources */,
+				22C6B0312801CD6000BB4DAF /* Knx_overlord.xcdatamodeld in Sources */,
+				222CABEC2814C09D009EB5B2 /* Api.swift in Sources */,
+				22C6B0252801CD5E00BB4DAF /* Knx_overlordApp.swift in Sources */,
+				226E65D028160D5000E35753 /* AnalogDeviceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C6B0322801CD6000BB4DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C6B03B2801CD6000BB4DAF /* Knx_overlordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C6B03C2801CD6000BB4DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C6B0452801CD6000BB4DAF /* Knx_overlordUITests.swift in Sources */,
+				22C6B0472801CD6000BB4DAF /* Knx_overlordUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22C6B0382801CD6000BB4DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C6B0202801CD5E00BB4DAF /* Knx overlord */;
+			targetProxy = 22C6B0372801CD6000BB4DAF /* PBXContainerItemProxy */;
+		};
+		22C6B0422801CD6000BB4DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C6B0202801CD5E00BB4DAF /* Knx overlord */;
+			targetProxy = 22C6B0412801CD6000BB4DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22C6B0482801CD6000BB4DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22C6B0492801CD6000BB4DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22C6B04B2801CD6000BB4DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Knx overlord/Preview Content\"";
+				DEVELOPMENT_TEAM = S8PRHP388M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Knx-overlord";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22C6B04C2801CD6000BB4DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Knx overlord/Preview Content\"";
+				DEVELOPMENT_TEAM = S8PRHP388M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Knx-overlord";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22C6B04E2801CD6000BB4DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8PRHP388M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Knx-overlordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knx overlord.app/Knx overlord";
+			};
+			name = Debug;
+		};
+		22C6B04F2801CD6000BB4DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8PRHP388M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Knx-overlordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knx overlord.app/Knx overlord";
+			};
+			name = Release;
+		};
+		22C6B0512801CD6000BB4DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8PRHP388M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Knx-overlordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Knx overlord";
+			};
+			name = Debug;
+		};
+		22C6B0522801CD6000BB4DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8PRHP388M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Knx-overlordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Knx overlord";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C6B01C2801CD5E00BB4DAF /* Build configuration list for PBXProject "Knx overlord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C6B0482801CD6000BB4DAF /* Debug */,
+				22C6B0492801CD6000BB4DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C6B04A2801CD6000BB4DAF /* Build configuration list for PBXNativeTarget "Knx overlord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C6B04B2801CD6000BB4DAF /* Debug */,
+				22C6B04C2801CD6000BB4DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C6B04D2801CD6000BB4DAF /* Build configuration list for PBXNativeTarget "Knx overlordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C6B04E2801CD6000BB4DAF /* Debug */,
+				22C6B04F2801CD6000BB4DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C6B0502801CD6000BB4DAF /* Build configuration list for PBXNativeTarget "Knx overlordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C6B0512801CD6000BB4DAF /* Debug */,
+				22C6B0522801CD6000BB4DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22C6B02F2801CD6000BB4DAF /* Knx_overlord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22C6B0302801CD6000BB4DAF /* Knx_overlord.xcdatamodel */,
+			);
+			currentVersion = 22C6B0302801CD6000BB4DAF /* Knx_overlord.xcdatamodel */;
+			path = Knx_overlord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22C6B0192801CD5E00BB4DAF /* Project object */;
+}
