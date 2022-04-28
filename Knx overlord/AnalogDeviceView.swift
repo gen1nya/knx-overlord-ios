@@ -35,6 +35,7 @@ struct AnalogDeviceView: View {
                     Slider(value: $value, in: 0...100) { editing in
                         print(editing)
                         if !editing {
+                            device.value = value
                             setAnalogDeviceValue(value: value)
                         }
                     }
@@ -50,8 +51,5 @@ struct AnalogDeviceView: View {
     private func setAnalogDeviceValue(value: Double) {
         print(value)
         Api().setAnalogDeviceValue(deviceId: device.id, value: value)
-//        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: {
-//            Api().getDiveces(devicesModel: devicesModel)
-//        })
     }
 }

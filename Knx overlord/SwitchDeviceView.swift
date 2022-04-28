@@ -32,7 +32,8 @@ struct SwitchDeviceView: View {
                     Spacer()
                     Toggle("", isOn: $enabled)
                         .onChange(of: enabled) { value in
-                            setSwitchDeviceValue(isEnabled: value)
+                            device.value = value ? 1.0 : 0.0
+                            setSwitchDeviceValue(isEnabled: enabled)
                         }
                 }
             }
@@ -44,8 +45,5 @@ struct SwitchDeviceView: View {
     
     private func setSwitchDeviceValue(isEnabled: Bool) {
         Api().setSwitchDeviceValue(deviceId: device.id, isEnabled: isEnabled)
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1, execute: {
-            Api().getDiveces(devicesModel: devicesModel)
-        })
     }
 }
