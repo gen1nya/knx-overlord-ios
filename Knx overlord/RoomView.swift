@@ -50,10 +50,3 @@ struct RoomView: View {
         room.devices.move(fromOffsets: source, toOffset: destination)
     }
 }
-
-final class MyCustomViewModel: NSObject, ObservableObject, UITableViewDelegate {
-
-    func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
-        return "Kick Out!"
-    }
-}
